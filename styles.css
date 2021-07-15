@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: aqua;
+}
+
+.nav h1{
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-family: sans-serif;
+    font-size: xx-large;
+
+}
+.nav li{
+    text-decoration: none;
+    padding: 5px;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: right;
+
+}
+.header{
+    text-align: center;
+    font-size: xx-large;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron {
+    background-color:mediumslateblue;
+    text-align: center;
+    font-size: xx-large;
+}
+.container{
+    display: inline-block;
+}
+@include media-breakpoint-only(1x){
+    deck-count: 4;
+}
+
+
+
